@@ -3,6 +3,7 @@ from coffee_shop.customer import Customer
 from coffee_shop.coffee import Coffee
 from coffee_shop.order import Order
 
+
 def test_customer_initialization():
     customer = Customer("Alice")
     assert customer.name == "Alice"
